@@ -51,7 +51,7 @@ body {
   background: var(--color-bg-secondary);
 }
 
-.bgPrimary {
+.bgPrimary, .call_to_action_container {
   background: var(--color-bg-primary);
 }
 
