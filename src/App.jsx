@@ -13,8 +13,9 @@ import JuryMembers from "./components/jurymember/JuryMembers";
 import Footer from "./components/footer/Footer";
 
 import CallToAction from "./components/widgets/CallToAction";
-import HighlightsSection from "./components/widgets/HighlightsSection";
+
 import SwiperComponent from "./components/widgets/SwiperComponent";
+import Highlights from "./components/widgets/Highlights";
 
 
 function App() {
@@ -31,8 +32,7 @@ function App() {
       <WhyResgister />
       <JuryMembers />
       {/* <Edition/> */}
-      {/* <HighlightsSection/> */}
-
+      <Highlights/>
       <SwiperComponent />
 
       <CallToAction />

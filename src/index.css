@@ -53,18 +53,16 @@ body {
   background: var(--color-bg-primary);
 }
 
-.my-custom-pagination-div {
-  position: absolute;
-  bottom: 10px;
-}
+
 
 .swiper {
-  overflow: visible;
+  overflow: hidden;
+
 }
 
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -60px;
+  
+  
+  bottom: -30px;
 }

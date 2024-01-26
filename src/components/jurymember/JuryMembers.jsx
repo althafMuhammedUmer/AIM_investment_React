@@ -30,7 +30,7 @@ const JuryMembers = () => {
   ];
   return (
     <div className="flex flex-col p-16 gap-8">
-      <p className="text-3xl font-bold text-center">JURY MEMBERS</p>
+      <p className="text-3xl font-bold text-center text-colorBgVarient">JURY MEMBERS</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-white">
         {members.map((card) => (
           <div key={card.id} className="bgPrimary p-4 rounded-md shadow-md">
