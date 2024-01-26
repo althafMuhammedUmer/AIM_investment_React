@@ -35,7 +35,7 @@ const SubMenu = ({ items }) => {
           key={index}
           className=" hover:bg-transparentBgColor cursor-pointer"
         >
-          <p className="text-3xl font-medium">{subItem.title}</p>
+          <p className="lg:text-3xl text-2xl font-medium">{subItem.title}</p>
           <ul>
             <li>{subItem.subtitle}</li>
             <li>{subItem.menuItem}</li>
@@ -86,11 +86,11 @@ const OffCanvas = ({ show, handleClose }) => {
 
   return (
     <div
-      className={`off-canvas relative h-[100vh] grid grid-cols-4  bg-white  ${
+      className={`off-canvas relative h-[100vh] grid lg:grid-cols-4 grid-cols-3  bg-white  ${
         show ? "flex" : "hidden"
       }`}
     >
-      <div className=" sidebar text-white">
+      <div className=" sidebar text-white text-sm">
         <ul className="w-full  flex flex-col gap-3">
           {dummyMenuItems.map((item, index) => (
             <MenuItem key={index} item={item} onItemClick={handleItemClick} />
@@ -98,7 +98,7 @@ const OffCanvas = ({ show, handleClose }) => {
         </ul>
       </div>
 
-      <div className="col-span-3">
+      <div className="lg:col-span-3 col-span-2">
         <SubMenu items={selectedSubMenu} />
       </div>
 
