@@ -45,7 +45,7 @@ const SubMenu = ({ items }) => {
   );
 };
 
-const OffCanvas = ({ show, handleClose }) => {
+const MultiDropDown = ({ show, handleClose }) => {
   const [selectedSubMenu, setSelectedSubMenu] = useState([]);
 
   const dummyMenuItems = [
@@ -116,4 +116,4 @@ OffCanvas.propTypes = {
   handleClose: PropTypes.func.isRequired,
 };
 
-export default OffCanvas;
+export default MultiDropDown;
