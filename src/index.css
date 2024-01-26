@@ -55,4 +55,10 @@ body {
   background: var(--color-bg-primary);
 }
 
+.collaps-horizontal {
+  transition: max-width 0.3s ease-in-out;
+  overflow: hidden;
+  max-width: 100%;
+}
+
 

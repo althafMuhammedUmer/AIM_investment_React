@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import "./nav.css";
 import menuIcon from "../../assets/icons/menu.svg";
 import searchIcon from "../../assets/icons/search-icon.svg";
+import OffCanvas from "./Offcanvas";
 
-import CollapsHorizontal from "./CollapsHorizontal";
 
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("Home");
   const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(false);
 
+  const handleClose = () => setShow(false);
   const handleShow = () => setShow(!show);
 
   const handleItemClick = (itemName) => {
@@ -115,8 +117,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <CollapsHorizontal show={show}/>
-      
+      <OffCanvas show={show} handleClose={handleClose}/>
+
     </>
   );
 };

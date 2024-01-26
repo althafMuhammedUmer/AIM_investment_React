@@ -4,11 +4,12 @@ import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 
 function CollapsHorizontal({ show }) {
+    
   return (
     <>
       <div className='w-full'>
-        {/* Use the 'show' prop instead of 'open' */}
-        <Collapse in={show} dimension="width" className='w-full'>
+        
+        <Collapse in={show} dimension="width" className='w-full collaps-horizontal'>
           <div id="example-collapse-text">
             <div className='w-full bg-white h-10'>
 
