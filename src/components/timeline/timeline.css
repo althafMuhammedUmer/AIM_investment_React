@@ -1,0 +1,50 @@
+.circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(
+    19deg,
+    #c8592a -16.96%,
+    #ce6634 -13.54%,
+    #e38d53 0.15%,
+    #f2aa69 12.13%,
+    #fbbb77 22.4%,
+    #ffc27c 29.24%,
+    #fbba74 42.93%,
+    #f1a461 63.47%,
+    #e08141 89.14%,
+    #d97233 99.4%,
+    #dd7637 114.8%,
+    #e98345 133.63%,
+    #fc985d 152.45%,
+    #ff9b60 154.16%
+  );
+
+  color: transparent;
+}
+
+.line {
+  width: 120px;
+  height: 10px;
+  border-radius: 15px;
+  background: linear-gradient(
+    19deg,
+    #c8592a -16.96%,
+    #ce6634 -13.54%,
+    #e38d53 0.15%,
+    #f2aa69 12.13%,
+    #fbbb77 22.4%,
+    #ffc27c 29.24%,
+    #fbba74 42.93%,
+    #f1a461 63.47%,
+    #e08141 89.14%,
+    #d97233 99.4%,
+    #dd7637 114.8%,
+    #e98345 133.63%,
+    #fc985d 152.45%,
+    #ff9b60 154.16%
+  );
+
+  color: transparent;
+  margin: 8px 0;
+}

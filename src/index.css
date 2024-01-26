@@ -1,0 +1,52 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-primary: linear-gradient(
+    108deg,
+    #6a5538 2%,
+    #bc975e 35%,
+    #d9be85 45%,
+    #e7d491 56%,
+    #c5a76c 67%,
+    #bc975e 78%,
+    #6a5538 100%
+  );
+  --color-bg-varient : #1C2F4B;
+  --color-bg-secondary : #3CF;
+
+  --color-primary: #2c4a75;
+
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+.btn {
+  display: inline-block;
+  width: max-content;
+  padding: 0.65rem 1.8rem;
+  border: none;
+  transition: all 400ms ease;
+}
+
+.btn-primary {
+  background: var(--color-bg-primary);
+}
+
+.btn-secondary {
+  background: var(--color-bg-secondary);
+}
+
+.bgPrimary {
+  background: var(--color-bg-primary);
+}
+
+
