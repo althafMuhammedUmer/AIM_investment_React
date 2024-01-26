@@ -4,7 +4,7 @@ import logo from "../../assets/logo/footer-company-logo.svg";
 const Footer = () => {
   return (
     <div className="h-screen md:h-96 bg-colorBgVarient relative">
-      <div className="p-4 md:p-8 lg:p-24 flex flex-col md:flex-row md:gap-12">
+      <div className=" p-8 md:p-24 flex flex-col md:flex-row md:gap-12">
         <img src={logo} alt="" className="w-32" />
 
         <div className="flex flex-col gap-2 mt-4 md:mt-0">

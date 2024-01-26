@@ -11,6 +11,7 @@ import Criterias from "./components/criterias/Criterias";
 import WhyResgister from "./components/why-register/WhyResgister";
 import JuryMembers from "./components/jurymember/JuryMembers";
 import Footer from "./components/footer/Footer";
+import Edition from "./components/edition/Edition";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
       <Criterias/>
       <WhyResgister/>
       <JuryMembers/>
+      <Edition/>
       <Footer/>
     </>
   );
