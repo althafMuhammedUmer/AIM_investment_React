@@ -6,6 +6,7 @@ import OffCanvas from "./Offcanvas";
 
 
 
+
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("Home");
   const [show, setShow] = useState(false);

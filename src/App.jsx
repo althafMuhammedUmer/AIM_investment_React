@@ -13,6 +13,7 @@ import JuryMembers from "./components/jurymember/JuryMembers";
 import Footer from "./components/footer/Footer";
 import Edition from "./components/edition/Edition";
 import CallToAction from "./components/widgets/CallToAction";
+import HighlightsSection from "./components/widgets/HighlightsSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +29,7 @@ function App() {
       <WhyResgister/>
       <JuryMembers/>
       {/* <Edition/> */}
+      <HighlightsSection/>
       <CallToAction/>
       <Footer/>
     </>
