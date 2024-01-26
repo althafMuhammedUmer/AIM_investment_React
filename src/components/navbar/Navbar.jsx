@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./nav.css";
 import menuIcon from "../../assets/icons/menu.svg";
 import searchIcon from "../../assets/icons/search-icon.svg";
-import OffCanvas from "./Offcanvas";
+// import OffCanvas from "./Offcanvas";
 
 
 
@@ -118,7 +118,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <OffCanvas show={show} handleClose={handleClose}/>
+      {/* <OffCanvas show={show} handleClose={handleClose}/> */}
 
     </>
   );
