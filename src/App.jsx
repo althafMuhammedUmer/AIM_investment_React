@@ -29,7 +29,7 @@ function App() {
       <WhyResgister/>
       <JuryMembers/>
       {/* <Edition/> */}
-      <HighlightsSection/>
+      {/* <HighlightsSection/> */}
       <CallToAction/>
       <Footer/>
     </>

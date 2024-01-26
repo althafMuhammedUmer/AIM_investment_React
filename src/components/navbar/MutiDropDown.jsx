@@ -28,7 +28,7 @@ const MenuItem = ({ item, onItemClick }) => {
 
 const SubMenu = ({ items }) => {
   return (
-    <div className="flex flex-col bg-slate-200-400  w-full p-4 gap-3">
+    <div className="flex flex-col bg-slate-200-400  w-full lg:p-4 p-2 gap-3">
       {items.map((subItem, index) => (
         <div
           key={index}
