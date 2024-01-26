@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from 'react-bootstrap';
+
 import "./App.css";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
@@ -11,7 +11,7 @@ import Criterias from "./components/criterias/Criterias";
 import WhyResgister from "./components/why-register/WhyResgister";
 import JuryMembers from "./components/jurymember/JuryMembers";
 import Footer from "./components/footer/Footer";
-import Edition from "./components/edition/Edition";
+
 import CallToAction from "./components/widgets/CallToAction";
 import HighlightsSection from "./components/widgets/HighlightsSection";
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header/>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero/>
       <AboutUs/>
       <Timeline/>

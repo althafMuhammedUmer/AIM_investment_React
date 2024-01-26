@@ -111,7 +111,7 @@ const MultiDropDown = ({ show, handleClose }) => {
   );
 };
 
-OffCanvas.propTypes = {
+MultiDropDown.propTypes = {
   show: PropTypes.bool.isRequired,
   handleClose: PropTypes.func.isRequired,
 };
