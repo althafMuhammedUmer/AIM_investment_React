@@ -3,7 +3,8 @@ import React from 'react'
 const Edition = () => {
   return (
     <div>
-        <p className='text-4xl'>Highlights from 2023 Edition</p>
+        <p className='text-2xl font-bold'>Highlights from 2023 Edition</p>
+        
 
     </div>
   )

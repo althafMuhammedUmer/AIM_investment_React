@@ -3,8 +3,8 @@ import logo from "../../assets/logo/footer-company-logo.svg";
 
 const Footer = () => {
   return (
-    <div className="h-screen md:h-96 bg-colorBgVarient relative">
-      <div className=" p-8 md:p-24 flex flex-col md:flex-row md:gap-12">
+    <div className=" w-full lg:h-96 bg-colorBgVarient ">
+      <div className=" p-8 md:p-24 flex flex-col lg:flex-row md:gap-12">
         <img src={logo} alt="" className="w-32" />
 
         <div className="flex flex-col gap-2 mt-4 md:mt-0">
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-gray-300 px-4 md:px-24 pb-8 absolute bottom-0 text-sm">
+      <p className="text-gray-300 px-4 md:px-24 pb-8 pt-8  text-sm">
         © Copyright AIM Foundation
       </p>
     </div>

@@ -26,7 +26,7 @@ function App() {
       <Criterias/>
       <WhyResgister/>
       <JuryMembers/>
-      <Edition/>
+      {/* <Edition/> */}
       <Footer/>
     </>
   );
