@@ -3,27 +3,17 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 
-function CollapsHorizontal() {
-  const [open, setOpen] = useState(false);
-
+function CollapsHorizontal({ show }) {
   return (
     <>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        click
-      </Button>
-      <div style={{ minHeight: '150px' }}>
-        <Collapse in={open} dimension="width">
+      <div className='w-full'>
+        {/* Use the 'show' prop instead of 'open' */}
+        <Collapse in={show} dimension="width" className='w-full'>
           <div id="example-collapse-text">
-            <Card body style={{ width: '400px' }}>
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente
-              ea proident.
-            </Card>
+            <div className='w-full bg-white h-10'>
+
+              
+            </div>
           </div>
         </Collapse>
       </div>
