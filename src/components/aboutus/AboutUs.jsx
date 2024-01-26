@@ -4,7 +4,7 @@ import ytIcon from '../../assets/icons/youtube.svg'
 
 const AboutUs = () => {
   return (
-    <div className="bg-colorBgVarient flex flex-col md:flex-row p-8  md:p-24 gap-16">
+    <div className="bg-colorBgVarient flex flex-col h-auto  lg:flex-row p-8  md:p-24 gap-16">
       <div className="flex flex-col gap-4 ">
         <p className="md:text-4xl text-3xl aboutus-heading font-bold">
           Celebrating Global Excellence with the AIM Congress Investment Awards
@@ -24,7 +24,7 @@ const AboutUs = () => {
           <button className="btn-primary px-4 py-3 rounded-lg">View 2023 Winners</button>
         </div>
       </div>
-      <div className="w-full bg-gray-200 rounded flex items-center justify-center md:h-auto h-96 ">
+      <div className="w-full bg-gray-200 rounded flex items-center justify-center h-96   ">
         <img src={ytIcon} alt="" />
       </div>
     </div>

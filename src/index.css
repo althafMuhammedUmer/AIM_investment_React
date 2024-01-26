@@ -15,11 +15,10 @@
     #bc975e 78%,
     #6a5538 100%
   );
-  --color-bg-varient : #1C2F4B;
-  --color-bg-secondary : #3CF;
+  --color-bg-varient: #1c2f4b;
+  --color-bg-secondary: #3cf;
 
   --color-primary: #2c4a75;
-
 }
 
 html {
@@ -31,8 +30,6 @@ body {
   padding: 0%;
   box-sizing: border-box;
   line-height: 1.2;
-  
-  
 }
 
 .btn {
@@ -51,14 +48,23 @@ body {
   background: var(--color-bg-secondary);
 }
 
-.bgPrimary, .call_to_action_container {
+.bgPrimary,
+.call_to_action_container {
   background: var(--color-bg-primary);
 }
 
-.collaps-horizontal {
-  transition: max-width 0.3s ease-in-out;
-  overflow: hidden;
-  max-width: 100%;
+.my-custom-pagination-div {
+  position: absolute;
+  bottom: 10px;
 }
 
+.swiper {
+  overflow: visible;
+}
 
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -60px;
+}

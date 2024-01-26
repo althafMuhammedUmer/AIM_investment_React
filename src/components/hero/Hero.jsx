@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-gray-600 md:h-96 flex flex-col text-white justify-center gap-2 lg:p-24  p-8">
       <div className="flex md:justify-start justify-center">
-        <p className="md:text-6xl text-3xl font-bold ">AIM Investment Awards</p>
+        <p className="md:text-6xl text-3xl font-bold text-center md:text-start">AIM Investment Awards</p>
       </div>
       <TextAnimation />
       <div className="flex md:justify-start justify-center">

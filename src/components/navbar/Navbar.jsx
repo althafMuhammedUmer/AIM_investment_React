@@ -21,8 +21,8 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="w-full px-5 py-3 md:py-0  ">
-        <div className="flex justify-between items-center">
+      <nav className="w-full  md:py-0  ">
+        <div className="flex justify-between p-6 py-3 items-center gap-2">
           <img
             src={menuIcon}
             alt=""
@@ -30,7 +30,7 @@ const Navbar = () => {
             onClick={handleShow}
           />
 
-          <ul className="lg:flex hidden text-white gap-4  ">
+          <ul className="lg:flex md:flex hidden text-white gap-4  ">
             <li
               className={`cursor-pointer ${
                 activeItem === "Home" ? "border-b-4 pb-1" : ""
@@ -40,7 +40,7 @@ const Navbar = () => {
               Home
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex  ${
                 activeItem === "About AIM" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("About AIM")}
@@ -48,7 +48,7 @@ const Navbar = () => {
               About AIM
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex ${
                 activeItem === "AIM GLOBAL 2023" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("AIM GLOBAL 2023")}
@@ -56,7 +56,7 @@ const Navbar = () => {
               AIM GLOBAL 2023
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex ${
                 activeItem === "AIM Startups" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("AIM Startups")}
@@ -64,7 +64,7 @@ const Navbar = () => {
               AIM Startups
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex ${
                 activeItem === "AIM FOURMS" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("AIM FOURMS")}
@@ -72,7 +72,7 @@ const Navbar = () => {
               AIM FOURMS
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex ${
                 activeItem === "AIM Awards" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("AIM Awards")}
@@ -80,7 +80,7 @@ const Navbar = () => {
               AIM Awards
             </li>
             <li
-              className={`cursor-pointer ${
+              className={`cursor-pointer md:hidden lg:flex  ${
                 activeItem === "Stand builder" ? "border-b-4 pb-1" : ""
               }`}
               onClick={() => handleItemClick("Stand builder")}

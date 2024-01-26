@@ -14,24 +14,29 @@ import Footer from "./components/footer/Footer";
 
 import CallToAction from "./components/widgets/CallToAction";
 import HighlightsSection from "./components/widgets/HighlightsSection";
+import SwiperComponent from "./components/widgets/SwiperComponent";
+
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Header/>
-      <Navbar/>
-      <Hero/>
-      <AboutUs/>
-      <Timeline/>
-      <Criterias/>
-      <WhyResgister/>
-      <JuryMembers/>
+      <Header />
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <Timeline />
+      <Criterias />
+      <WhyResgister />
+      <JuryMembers />
       {/* <Edition/> */}
       {/* <HighlightsSection/> */}
-      <CallToAction/>
-      <Footer/>
+
+      <SwiperComponent />
+
+      <CallToAction />
+      <Footer />
     </>
   );
 }
