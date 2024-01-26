@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Hero/>
       <AboutUs/>
       <Timeline/>
