@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import "./nav.css";
 import menuIcon from "../../assets/icons/menu.svg";
 import searchIcon from "../../assets/icons/search-icon.svg";
-import Offcanvas from "./OffCanvas";
+
 import OffCanvas from "./OffCanvas";
 
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("Home");
   const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => setShow(!show);
 
   const handleItemClick = (itemName) => {
     setActiveItem(itemName);
@@ -116,7 +117,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <OffCanvas show={show} handleClose={handleClose}/> */}
+      <OffCanvas show={show} handleClose={handleClose}/>
+      {/* <CollapsHorizontal /> */}
     </>
   );
 };
