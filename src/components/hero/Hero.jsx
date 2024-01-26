@@ -4,7 +4,7 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="bg-gray-600 md:h-96 flex flex-col text-white justify-center gap-2 md:p-24  p-8">
+    <div className="bg-gray-600 md:h-96 flex flex-col text-white justify-center gap-2 lg:p-24  p-8">
       <div className="flex md:justify-start justify-center">
         <p className="md:text-6xl text-3xl font-bold ">AIM Investment Awards</p>
       </div>
